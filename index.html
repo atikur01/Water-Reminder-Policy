@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Water Reminder</title>
+    <style>
+        :root {
+            --primary: #007AFF;
+            --bg: #0a0a0a;
+            --text: #ffffff;
+            --card-bg: #1a1a1a;
+            --secondary: #8E8E93;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #007AFF, #00C6FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .last-updated {
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        p, ul {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(0, 198, 255, 0.1));
+            border: 1px solid var(--primary);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: May 8, 2026</p>
+        </header>
+
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to <strong>Water Reminder</strong>. Your privacy is critically important to us. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.</p>
+        </section>
+
+        <section id="data-collection">
+            <h2>Data Collection</h2>
+            <p>Our app is designed to respect your privacy. We do not collect personal identification information unless explicitly provided by you. We use local storage (Hive/Shared Preferences) to store your:</p>
+            <ul>
+                <li>Water intake goals and history</li>
+                <li>Reminder preferences and schedules</li>
+                <li>Weight and activity level (for calculation purposes)</li>
+            </ul>
+            <p>This data stays on your device and is not uploaded to our servers unless you use a backup/sync feature (if available).</p>
+        </section>
+
+        <section id="permissions">
+            <h2>Permissions</h2>
+            <p>To provide its core functionality, the app may request the following permissions:</p>
+            <ul>
+                <li><strong>Notifications:</strong> To send you reminders to drink water.</li>
+                <li><strong>Alarms & Reminders:</strong> To schedule exact hydration alerts.</li>
+                <li><strong>Internet:</strong> To provide fonts or check for updates.</li>
+            </ul>
+        </section>
+
+        <section id="third-party">
+            <h2>Third-Party Services</h2>
+            <p>We may use third-party services that collect information used to identify you:</p>
+            <ul>
+                <li><a href="https://www.google.com/policies/privacy/" target="_blank" style="color: var(--primary);">Google Play Services</a></li>
+            </ul>
+        </section>
+
+        <section id="security">
+            <h2>Security</h2>
+            <p>We value your trust in providing us your information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable.</p>
+        </section>
+
+        <section id="changes">
+            <h2>Changes to This Policy</h2>
+            <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        </section>
+
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+            <p><strong>[INSERT YOUR EMAIL HERE]</strong></p>
+        </div>
+    </div>
+</body>
+</html>
